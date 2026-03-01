@@ -71,6 +71,14 @@
             animation-delay: 2s;
         }
 
+        .dude-gif {
+            opacity: 0;
+            animation: rise 1.2s ease forwards;
+            animation-delay: 2.6s;
+            max-width: min(340px, 80vw);
+            border-radius: 8px;
+        }
+
         @media (max-width: 480px) {
             .name    { letter-spacing: 0.04em; }
             .subtitle { letter-spacing: 0.15em; }
@@ -92,6 +100,7 @@
         <h1 class="name">Mario André Bobadilla</h1>
         <div class="divider"></div>
         <p class="subtitle">I'm the Dude</p>
+        <img class="dude-gif" src="images/the-big-lebowski-the-dude.gif" alt="The Dude abides">
     </div>
 </body>
 </html>
